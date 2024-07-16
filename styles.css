@@ -1,0 +1,80 @@
+body {
+  background-color: black;
+  font-family: "Spectral";
+  color: white;
+  text-align: center;
+  align-content: center;
+}
+
+h1 {
+  font-family: "Beth Ellen";
+  font-size: 4rem;
+  line-height: 1.2;
+}
+
+h1 span {
+  color: #FF5563;
+}
+
+p {
+  font-size: 1.25rem;
+  margin-bottom: 4.5rem;
+}
+
+a {
+  background-color: #FF5563;
+  color: white;
+  text-decoration: none;
+  padding: 1rem 2rem;
+
+  font-size: 1.5rem;
+  border-radius: .5rem;
+}
+
+a:hover {
+  background-color: #ff3e4e;
+}
+
+/* BG IMAGE */
+#bg-image {
+  position: absolute;
+  inset: 0;
+  background-image: url("img/japafood.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+
+/* ANIMATION */
+
+h1, p, a {
+  animation: appear 1s backwards;
+}
+
+h1 {
+  animation-delay: 0.2s;
+}
+
+p {
+  animation-delay: 0.8s;
+}
+
+a {
+  animation-delay: 1.6s;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+}
+
+/* RESPONSIVE */
+@media (width < 40rem) {
+  html {
+    font-size: 70%;
+  }
+} 
