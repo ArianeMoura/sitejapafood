@@ -1,6 +1,6 @@
-# Website for Japanese food restaurant
+# Website for Japanese Food Restaurant
 
-- HTML and CSS.
+- **Projeto da Rocketseat:** Jornada do Zero à Programação.
 
 <br>
 
