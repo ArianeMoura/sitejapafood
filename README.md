@@ -1,16 +1,15 @@
 # Website for Japanese Food Restaurant
-
-<div align="center">
   
 **Projeto da Rocketseat:** Jornada do Zero à Programação.
 
 <br>
 
+<div align="center">
+
 <img width="860" alt="image" src="https://github.com/user-attachments/assets/a98b8b3d-0321-416f-b49f-2b73e54776ec">
 
-<br>
+</div>
+
 <br>
 
 🖥️ Click <a href="https://arianemoura.github.io/sitejapafood/">here</a> to access the website.
-
-</div>
